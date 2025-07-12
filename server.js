@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const medRoutes = require('./routes/medications')
 const cors = require('cors')
-require('dotenv').config();
+// require('dotenv').config();
 
 const app = express();
 app.use(cors());
